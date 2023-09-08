@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="varlamovPr2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <StackLayout
+                Spacing="0"
+                Padding="0, 0"
+                VerticalOptions="Start">
+                
+                <Label Text="Задание 1"/>
+                <Label
+                    Text="Первое значение"
+                    HorizontalTextAlignment="Center"/>
+                <Entry x:Name="zn1" />
+                <Label
+                    Text="Второе значение"
+                    HorizontalTextAlignment="Center"/>
+                <Entry x:Name="zn2" />
+                <Button Clicked="Button_Clicked"
+                        Text="Рассчитать"/>
+                <Label
+                    Text="Периметр"
+                    HorizontalTextAlignment="Center"/>
+                <Entry x:Name="rez1"
+                       IsEnabled="False"/>
+                <Label
+                    Text="Площадь"
+                    HorizontalTextAlignment="Center"/>
+                <Entry x:Name="rez2"
+                       IsEnabled="False"/>
+                
+                <Label Text="Задание 2"/>
+                <Label Text="Введите размер файла в байтах"
+                       HorizontalTextAlignment="Center"/>
+                <Entry x:Name="zn3"/>
+                <Button Clicked="Button_Clicked_1"
+                        Text="Рассчитать в байтах" />
+                <Label Text="Размер файла в байтах"
+                       HorizontalTextAlignment="Center"/>
+                <Entry x:Name="rez3"
+                       IsEnabled="False"/>
+
+            </StackLayout>
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
