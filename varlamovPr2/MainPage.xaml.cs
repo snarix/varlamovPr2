@@ -11,7 +11,7 @@ public partial class MainPage : ContentPage
 
     private void Task1(object sender, EventArgs e)
     {
-
+        // ne nado
     }
 
     private void Button_Clicked(object sender, EventArgs e)
